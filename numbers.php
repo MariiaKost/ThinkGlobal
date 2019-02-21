@@ -1,9 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * Date: 20.02.2019
- * Time: 7:28
- */
 
 // Ищет сумму цифр числа
 function DigitSum ($number)
@@ -62,7 +57,7 @@ if ($_POST["submit"] == "OK")
 ?>
 
 <br>
-<table cellspasing="5" cellpadding = "5" border="0" align="center">
+<table cellspacing="5" cellpadding = "5" border="0" align="center">
     <tr>
         <td>
             <form name="f" method = "post" action="<?php print basename($_SERVER["PHP_SELF"]) ?>">
